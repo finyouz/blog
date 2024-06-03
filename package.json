@@ -8,6 +8,7 @@
     "vitepress": "^1.2.2"
   },
   "dependencies": {
-    "element-plus": "^2.7.4"
+    "element-plus": "^2.7.4",
+    "sass": "^1.77.4"
   }
 }
