@@ -1,0 +1,32 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "小胖的博客"
+  tagline: "这是一个博客"
+  image:
+    src: logo.jpg
+  actions:
+    - theme: brand
+      text: 开始旅途
+      link: /markdown-examples
+    - theme: alt
+      text: 关于我
+      link: /about
+
+features:
+  - title: 笔记
+    details: 记录前端开发中学习的课程笔记
+  - title: 小功能
+    details: 记录前端开发的实现的小功能
+  - title: 项目
+    details: 记录前端开发的项目
+  - title: 笔记
+    details: 记录前端开发中学习的课程笔记
+  - title: 小功能
+    details: 记录前端开发的实现的小功能
+  - title: 项目
+    details: 记录前端开发的项目
+---
+
