@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:'/blog/',
   head: [['link', { rel: 'icon', href: '../public/favicon.ico' }]],
   title: "finyou",
   description: "这个是我的博客",
