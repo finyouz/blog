@@ -34,7 +34,13 @@ export default defineConfig({
         dateStyle: 'full',
         timeStyle: 'medium'
       }
+    },
+    sidebarMenuLabel:'菜单',
+    returnToTopLabel:'返回顶端',
+    outline:{
+      label:'页面导航'
     }
   },
-  lang:'zh-Hans'
+  lang: 'zh',
+  
 })
