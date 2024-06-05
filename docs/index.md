@@ -18,8 +18,9 @@ hero:
 features:
   - title: 笔记
     details: 记录前端开发中学习的课程笔记
-  - title: 小功能
-    details: 记录前端开发的实现的小功能
+  - title: MySQL
+    details: 记录学习的笔记SQL
+    link: /guide/mysql/ddl
   - title: 项目
     details: 记录前端开发的项目
   - title: 笔记
