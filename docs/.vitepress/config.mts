@@ -27,7 +27,14 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+    lastUpdated: {
+      text: '更新日期',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    }
   },
-  lastUpdated: true
+  lang:'zh-Hans'
 })
