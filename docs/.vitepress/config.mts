@@ -20,6 +20,9 @@ export default defineConfig({
           text: 'MySQL',
           items: [
             { text: 'DDL', link: '/guide/mysql/ddl' },
+            { text: 'DML', link: '/guide/mysql/dml' },
+            { text: 'DQL', link: '/guide/mysql/dql' },
+            { text: 'DCL', link: '/guide/mysql/dcl' },
           ]
         }
       ],
