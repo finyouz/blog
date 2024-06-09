@@ -23,6 +23,7 @@ export default defineConfig({
             { text: 'DML', link: '/guide/mysql/dml' },
             { text: 'DQL', link: '/guide/mysql/dql' },
             { text: 'DCL', link: '/guide/mysql/dcl' },
+            { text: '函数', link: '/guide/mysql/function' },
           ]
         }
       ],
