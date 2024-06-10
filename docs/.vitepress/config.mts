@@ -24,6 +24,7 @@ export default defineConfig({
             { text: 'DQL', link: '/guide/mysql/dql' },
             { text: 'DCL', link: '/guide/mysql/dcl' },
             { text: '函数', link: '/guide/mysql/function' },
+            { text: '字段约束', link: '/guide/mysql/constraint' },
           ]
         }
       ],
