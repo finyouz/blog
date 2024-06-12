@@ -113,12 +113,53 @@ select * from 表名 where column1 = (select column1 from 表明)
 子查询外部语句可以是 insert / update / delete / select的任何一个
 
 子查询分类：
-1.标量子查询（子查询结果为单个）
-2.列子查询（子查询结果为一列）
-3.行子查询（子查询结果为一行）
-4.表子查询（子查询结果为多行多列）
 
-查询位置
+1.标量子查询（子查询结果为单个）
+
+```sql
+select * from emp where deptId = (select id from dept where name = '销售部')
+```
+
+2.列子查询（子查询结果为一列）
+
+常用操作符
+
+|操作符 |描述|
+|-------|-----|
+|in|在指定集合范围之内，多选一|
+|not in |不在指定范围之内|
+|any|子查询返回列表中，有任意一个满足即可|
+|some|与any等同，使用some的地方都可以使用any|
+|all|子查询返回列表的所有值都必须满足|
+
+```sql
+select * from emp where deptId in (select id from dept where name= '销售部' or name='研发部')
+```
+
+3.行子查询（子查询结果为一行）
+常见的操作符：= 、<> 、in 、not in
+
+```sql
+select * from emp where (salary,managerId) = (select salary,managerId from  dept name='张无忌')
+```
+
+4.表子查询（子查询结果为多行多列）
+常用操作符：in
+
+```sql
+select * from emp where (job,salary) in (select job, salary from dept where name='finyou' or name = '小胖')
+```
+
+将查询的结果当成临时表
+
+```sql
+select * from (select *from emp where entrydate > '2006-01-01') e left join dept d on e.deptId = c.id
+```
+
+查询位置:
+
 where之后
+
 from 之后
+
 select 之后
