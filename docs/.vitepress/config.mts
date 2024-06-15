@@ -30,6 +30,15 @@ export default defineConfig({
           ]
         }
       ],
+      '/guide/small/':[
+        {
+          text:'项目中的小功能',
+          items:[
+            {text:'全屏',link:'/guide/small/fullScreen'},
+            {text:'国际化',link:'/guide/small/language'}
+          ]
+        }
+      ]
     },
 
     socialLinks: [
