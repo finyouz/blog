@@ -26,5 +26,11 @@ features:
   - title: 小功能
     details: 记录前端项目中小功能
     link: /guide/small/fullScreen
+  - title: ES6
+    details: SCMASript6
+    link: /guide/es6/index
+  - title: 面试
+    details: 记录面试中常见的问题
+    link: /guide/interView/index
 ---
 

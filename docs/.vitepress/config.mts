@@ -38,6 +38,15 @@ export default defineConfig({
             {text:'国际化',link:'/guide/small/language'}
           ]
         }
+      ],
+      '/guide/interView/':[
+        {
+          text:'面经',
+          items:[
+            {text:'let、const和var的区别',link:'/guide/interView/index'},
+            
+          ]
+        }
       ]
     },
 
