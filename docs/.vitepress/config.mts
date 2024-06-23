@@ -20,9 +20,31 @@ export default defineConfig({
             { text: 'DML', link: '/guide/mysql/dml' },
             { text: 'DQL', link: '/guide/mysql/dql' },
             { text: 'DCL', link: '/guide/mysql/dcl' },
+            { text: '函数', link: '/guide/mysql/function' },
+            { text: '字段约束', link: '/guide/mysql/constraint' },
+            { text: '多表查询', link: '/guide/mysql/query' },
+            { text: '事务', link: '/guide/mysql/affair' },
           ]
         }
       ],
+      '/guide/small/':[
+        {
+          text:'项目中的小功能',
+          items:[
+            {text:'全屏',link:'/guide/small/fullScreen'},
+            {text:'国际化',link:'/guide/small/language'}
+          ]
+        }
+      ],
+      '/guide/interView/':[
+        {
+          text:'面经',
+          items:[
+            {text:'let、const和var的区别',link:'/guide/interView/index'},
+            
+          ]
+        }
+      ]
     },
 
     socialLinks: [

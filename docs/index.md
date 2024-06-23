@@ -23,11 +23,14 @@ features:
     link: /guide/mysql/ddl
   - title: 项目
     details: 记录前端开发的项目
-  - title: 笔记
-    details: 记录前端开发中学习的课程笔记
   - title: 小功能
-    details: 记录前端开发的实现的小功能
-  - title: 项目
-    details: 记录前端开发的项目
+    details: 记录前端项目中小功能
+    link: /guide/small/fullScreen
+  - title: ES6
+    details: SCMASript6
+    link: /guide/es6/index
+  - title: 面试
+    details: 记录面试中常见的问题
+    link: /guide/interView/index
 ---
 
