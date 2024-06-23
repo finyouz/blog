@@ -1,13 +1,10 @@
 import { defineConfig } from 'vitepress'
-
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   base:'/blog/',
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   title: "finyou",
   description: "这个是我的博客",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
       { text: '关于我', link: '/about' }
@@ -42,8 +39,11 @@ export default defineConfig({
     returnToTopLabel:'返回顶端',
     outline:{
       label:'页面导航'
+    },
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
     }
   },
   lang: 'zh',
-  
 })
