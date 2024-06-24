@@ -32,5 +32,8 @@ features:
   - title: 面试
     details: 记录面试中常见的问题
     link: /guide/interView/index
+  - title: uniapp
+    details: 记录uniapp中遇到的问题
+    link: /guide/uniapp/customNav
 ---
 

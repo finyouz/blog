@@ -44,12 +44,27 @@ export default defineConfig({
             
           ]
         }
+      ],
+      '/guide/es6/':[
+        {
+          text:'javaScript',
+          items:[
+            {text:'作用域',link:'/guide/es6/index'},
+            {text:'结构赋值',link:'/guide/es6/StructuralAssignment'}
+          ]
+        }
+      ],
+      '/guide/uniapp/':[
+        {
+          text:'uniapp',
+          items:[
+            {text:'自定义导航栏',link:'/guide/uniapp/customNav'},
+          ]
+        }
       ]
     },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ],
+   
     lastUpdated: {
       text: '更新日期',
       formatOptions: {
