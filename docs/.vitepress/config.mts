@@ -62,6 +62,14 @@ export default defineConfig({
             {text:'拦截器',link:'/guide/uniapp/Interceptor'},
           ]
         }
+      ],
+      '/guide/git/':[
+        {
+          text:'git',
+          items:[
+            {text:'常见命令',link:'/guide/git/index'},
+          ]
+        }
       ]
     },
 

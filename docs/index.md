@@ -35,5 +35,8 @@ features:
   - title: uniapp
     details: 记录uniapp中遇到的问题
     link: /guide/uniapp/customNav
+  - title: git
+    details: 记录git常见用法
+    link: /guide/git/index
 ---
 
