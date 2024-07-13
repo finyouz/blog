@@ -41,7 +41,7 @@ export default defineConfig({
           text:'面经',
           items:[
             {text:'let、const和var的区别',link:'/guide/interView/index'},
-            
+            {text:'白屏问题',link:'/guide/interView/whiteScreen'},
           ]
         }
       ],
