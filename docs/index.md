@@ -16,8 +16,9 @@ hero:
       link: /about
 
 features:
-  - title: 笔记
-    details: 记录前端开发中学习的课程笔记
+  - title: Vue
+    details: 记录vue中学习的课程笔记
+    link: /guide/vue/index
   - title: MySQL
     details: 记录学习的笔记SQL
     link: /guide/mysql/ddl
