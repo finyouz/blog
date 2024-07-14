@@ -70,6 +70,14 @@ export default defineConfig({
             {text:'常见命令',link:'/guide/git/index'},
           ]
         }
+      ],
+      '/guide/styleCss/':[
+        {
+          text:'css样式库',
+          items:[
+            {text:'tailwindcss',link:'/guide/styleCss/index'},
+          ]
+        }
       ]
     },
 

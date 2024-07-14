@@ -38,5 +38,8 @@ features:
   - title: git
     details: 记录git常见用法
     link: /guide/git/index
+  - title: css样式库
+    details: 记录css组件库
+    link: /guide/styleCss/index
 ---
 
