@@ -68,3 +68,7 @@ npm run dev
   </h1>
 </template>
 ```
+
+> 7.安装官方推荐插件实现智能提示 Tailwind CSS IntelliSens
+
+然后开始添加class类，就会有智能提示了，如果没有的话，前面添加一个空格，就会出现提示类
