@@ -84,6 +84,7 @@ export default defineConfig({
           text:'vue学习',
           items:[
             {text:'基础',link:'/guide/vue/index'},
+            {text:'全局自定义指令',link:'/guide/vue/direct'},
           ]
         }
       ]
