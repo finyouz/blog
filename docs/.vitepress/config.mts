@@ -78,6 +78,14 @@ export default defineConfig({
             {text:'tailwindcss',link:'/guide/styleCss/index'},
           ]
         }
+      ],
+      '/guide/vue/':[
+        {
+          text:'vue学习',
+          items:[
+            {text:'基础',link:'/guide/vue/index'},
+          ]
+        }
       ]
     },
 
