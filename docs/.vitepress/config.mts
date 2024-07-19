@@ -42,6 +42,8 @@ export default defineConfig({
           items:[
             {text:'let、const和var的区别',link:'/guide/interView/index'},
             {text:'白屏问题',link:'/guide/interView/whiteScreen'},
+            {text:'导包方式',link:'/guide/interView/modul'},
+            {text:'防抖和节流',link:'/guide/interView/debAndThr'},
           ]
         }
       ],
