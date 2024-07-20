@@ -62,6 +62,7 @@ export default defineConfig({
           items:[
             {text:'自定义导航栏',link:'/guide/uniapp/customNav'},
             {text:'拦截器',link:'/guide/uniapp/Interceptor'},
+            {text:'tabBar',link:'/guide/uniapp/tabBar'},
           ]
         }
       ],
