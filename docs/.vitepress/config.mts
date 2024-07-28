@@ -52,7 +52,8 @@ export default defineConfig({
           text:'javaScript',
           items:[
             {text:'作用域',link:'/guide/es6/index'},
-            {text:'结构赋值',link:'/guide/es6/StructuralAssignment'}
+            {text:'结构赋值',link:'/guide/es6/StructuralAssignment'},
+            {text:'事件循环',link:'/guide/es5/eventLoop'}
           ]
         }
       ],
