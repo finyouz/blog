@@ -92,6 +92,14 @@ export default defineConfig({
             {text:'组件间的通信',link:'/guide/vue/information'},
           ]
         }
+      ],
+      '/guide/node/':[
+        {
+          text:'后端开发',
+          items:[{
+            text:'token验证',link:'/guide/node/index'
+          }]
+        }
       ]
     },
 
