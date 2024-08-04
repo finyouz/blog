@@ -38,6 +38,7 @@ module.exports = JWT
 //对请求进行拦截，是否存在token
 app.use(async(req,res,next)=>{
   let {url} = req
+  //routes(数组) 是对不需要token的接口
   if(routes.includes(url)){
     //不需要携带token
     next()
