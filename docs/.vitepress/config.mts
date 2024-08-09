@@ -98,8 +98,11 @@ export default defineConfig({
         {
           text:'后端开发',
           items:[{
-            text:'token验证',link:'/guide/node/index'
-          }]
+            text:'token验证',link:'/guide/node/index',
+            
+          },
+         {text:'图片验证码',link:'/guide/node/code'}
+        ]
         }
       ]
     },
