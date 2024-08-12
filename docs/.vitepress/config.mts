@@ -91,6 +91,7 @@ export default defineConfig({
             {text:'基础',link:'/guide/vue/index'},
             {text:'全局自定义指令',link:'/guide/vue/direct'},
             {text:'组件间的通信',link:'/guide/vue/information'},
+            {text:'参数处理和导航栏高亮问题',link:'/guide/vue/pageParm'},
           ]
         }
       ],
