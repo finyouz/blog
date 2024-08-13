@@ -26,5 +26,31 @@
 ## 正确做法
 
 ```js
-route.matched.some(record => record.path === '/photo/album' || record.path === '/photo/album/:id')
+{ path: '/photo',
+     component: Photo,
+     children:[
+      {
+        path:'pic',
+        component:Pic,
+        meta:{
+          path:"/photo/pic"
+        }
+      },
+      {
+        path:'album',
+        component:Album,
+        meta:{
+          path:"/photo/album",
+          
+        }
+      },
+      {
+        path:'album/:id',
+        component:AlbumDetail,
+        meta:{
+          path:"/photo/album"
+        }
+      }
+     ]
+   }
 ```
