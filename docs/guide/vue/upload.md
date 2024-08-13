@@ -1,4 +1,4 @@
-# 大文件上传
+# 大文件上传(未完善)
 
 ## 进行切片处理
 
@@ -51,6 +51,7 @@ const calculateHash = (chunks:Blob[])=>{
 ```
 
 ## 切片上传和合并切片
+```js
 const uploadChunks = async(chunks:Blob[])=>{
   const data = chunks.map((chunck,index)=>{
     return {
@@ -116,3 +117,4 @@ const mergeRequest = async()=>{
     })
   })
 }
+```
