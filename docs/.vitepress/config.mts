@@ -45,6 +45,7 @@ export default defineConfig({
             {text:'白屏问题',link:'/guide/interView/whiteScreen'},
             {text:'导包方式',link:'/guide/interView/modul'},
             {text:'防抖和节流',link:'/guide/interView/debAndThr'},
+            {text:'token无感刷新',link:'/guide/interView/token'},
           ]
         }
       ],
