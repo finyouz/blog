@@ -234,4 +234,170 @@ type Item2 = item & {
 }
 ```
 
-9.interface
+10.class
+
+> 基本展示
+```ts
+class Person{
+    name:string
+    age:number
+    constructor(name:string,age:number){
+        this.name = name
+        this.age = age
+    }
+    speak(){
+        consloe.log(`我的名字${this.name}`)
+    }
+}
+```
+
+>继承
+```ts
+class Student extents Person{
+    grade:string
+    constructor(name:string,age:number,grader:string){
+        super(name,age)
+        this.grade = grade
+    }
+
+    //可写不写,(防止写错)
+    override speak(){
+        consloe.log(`我学生的名字${this.name}`)
+    }
+}
+
+```
+
+11. 属性修饰符
+
+|修饰符|含义|具体规程|
+|--|--|--|
+|public|公开|可以被：类内部、子类、类外部访问(new)|
+|protected|受保护的|可以被：类内部、子类访问|
+|private|私有的|可以被类内部访问|
+|readonly|只读属性|属性无法修改|
+
+简写形式
+```ts
+class Person{
+    constructor(public name:string,public age:number){
+        this.name = name
+        this.age = age
+    }
+    speak(){
+        consloe.log(`我的名字${this.name}`)
+    }
+}
+```
+
+12.抽象类
+> 概述：抽象类是一种`无法被实例化`的类，专门用来定义类的`结构和行为`，类中可以写抽象方法，也可以具体实现。抽象类主要用来为其派生类提供一个基本结构，要求`必须实现其中的抽象方法`。
+
+
+```ts
+abstract class Package{
+    contruction(public weight:number){
+
+    }
+
+    //抽象方法
+    abstract calculate():number
+
+    printPackage(){
+        console.log("包裹重")
+    }
+}
+```
+
+13 interface
+`重复定义，可以合并`
+```ts
+interface Person{
+    name:string,
+    age:number,
+    speack(numbre):void
+}
+
+interface Son extends Person {
+    detail:string
+}
+
+//类的实现
+class Father implements Person{
+    constructor(){
+        public name:string,
+        public age:number
+    }
+
+    speack(n:number){
+        console.log(n)
+    }
+}
+```
+
+14.区别
+
+>type 和 interface
+
+相同点：定义对象的类型
+
+不同点：
+
+- 前者专注于`类型别名、联合类型、交叉类型`，不支持继承和自动合并
+
+- 后者专注于`对象和类`的结构，但支持继承和自动合并
+
+> interface 和抽象类
+
+相同点：定义类的结构
+
+不同点：
+- 前者：只能描述结构，无法实现代码，一个类可以实现多个结构
+- 后者：既可以包含抽象方法，也可以包含具体方法，一个类只能继承一个抽象类
+
+## 三、泛型
+>泛型函数
+```ts
+function logData<T>(data:T){
+
+}
+
+
+logData<number>(100)
+
+logData<string>(100)
+```
+>泛型接口
+
+```ts
+interface Person<T>{
+    name:string,
+    userInfo:T
+}
+
+
+let person:Person<number>{
+    name:'ok',
+    userInfo:2 
+}
+```
+## 四、类型声明文件
+
+> 类型声明文件是Ts中的特殊文件，通常以.d.ts作为扩展名，它主要作用是为现有的js提供类型信息，是的ts能够使用js是进行类型检查和提示
+
+```js
+//demo.js
+
+export function add(a,b){
+    return a+b
+}
+
+```
+
+```ts
+// demo.d.ts
+
+declare function add(a:number,b:number):number
+
+
+```
