@@ -45,5 +45,8 @@ features:
   - title: 后端开发(express)
     details: 励志全栈开发
     link: /guide/node/index
+  - title: electorn
+    details: 桌面开发
+    link: /guide/node/index
 ---
 
