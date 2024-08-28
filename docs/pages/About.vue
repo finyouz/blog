@@ -8,7 +8,7 @@
         </el-timeline-item>
         <el-timeline-item timestamp="2024/3/1" placement="top">
             <el-card>
-                <h4>湖南准题库教育科技有限公司</h4>
+                <h4>中大网校教育科技有限公司</h4>
                 <p>职位：前端实习生</p>
                 <div class="content_content">
                     <p class="shixi_content">实习内容:

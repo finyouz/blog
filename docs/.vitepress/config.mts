@@ -46,6 +46,7 @@ export default defineConfig({
             {text:'导包方式',link:'/guide/interView/modul'},
             {text:'防抖和节流',link:'/guide/interView/debAndThr'},
             {text:'token无感刷新',link:'/guide/interView/token'},
+            {text:'css',link:'/guide/interView/css'},
           ]
         }
       ],
@@ -95,6 +96,7 @@ export default defineConfig({
             {text:'组件间的通信',link:'/guide/vue/information'},
             {text:'参数处理和导航栏高亮问题',link:'/guide/vue/pageParm'},
             {text:'大文件上传',link:'/guide/vue/upload'},
+            {text:'mock假数据',link:'/guide/vue/mock'}
           ]
         }
       ],
